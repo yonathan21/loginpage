@@ -1,0 +1,102 @@
+.main2{
+  text-align: center;
+  margin-right: 30px;
+}
+
+.main2 .h2{
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.main2 .imgs1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 7px;
+} 
+.main2 .imgs1 button{
+  background-color: white;
+  color: white;
+  border:1px solid rgba(93, 92, 92, 0.445);
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.main2 .imgs1 button:hover{
+  background-color: #4f4fcd;
+  color: white;
+  border:1px solid white;
+}
+.p1 p{
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: black;
+  text-align: center;
+}
+
+.name input{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border:1px solid rgba(93, 92, 92, 0.445);
+  margin-bottom: 10px;
+}
+.name input:focus{
+  outline: none;
+  border:1px solid #4f4fcd;
+}
+
+.email input{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border:1px solid rgba(93, 92, 92, 0.445);
+  margin-bottom: 10px;
+}
+
+.email input:focus{
+  outline: none;
+  border:1px solid #4f4fcd;
+}
+
+.password input{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border:1px solid rgba(93, 92, 92, 0.445);
+  margin-bottom: 10px;
+}
+.password input:focus{
+  outline: none;
+  border:1px solid #4f4fcd;
+}
+
+.signup button{
+  background-color: #4f4fcd;
+  color: white;
+  font-weight: bold;
+  border:1px solid white;
+  padding: 10px 40px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s ease;
+}
+.signup button:hover{
+  background-color: white;
+  color: #4f4fcd;
+  border:1px solid white;
+  padding: 10px 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}

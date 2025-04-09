@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #c6d8fc;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  width: 100%;
+  max-width: 800px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.main1{
+  width: 100%;
+  margin-right: 20px;
+  padding: 55px;
+  border-radius: 10px;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  background: rgb(79, 79, 205);
+  color: white;
+  text-align: center;
+}
+
+.main2{
+  width: 100%;
+  margin-left: 20px;
+  padding: 10px;
+  padding-top: 30px;
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+}
+
+.h1{
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+
+.p{
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.btn{
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn button{
+  background-color: #4f4fcd;
+  color: white;
+  font-weight: bold;
+  border:1px solid white;
+  padding: 7px 40px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover button{
+  background-color: white;
+  color: #4f4fcd;
+  border:1px solid white;
+  padding: 7px 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s ease;
+}
